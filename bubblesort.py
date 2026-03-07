@@ -3,7 +3,7 @@ def bubble_sort(l):
     for i in range(1,len(l)):
     
       #for r th step there will be len(l)-r comparisons
-      for j in range(0,len(l)-1):
+      for j in range(0,len(l)-i):
     
         #if the next element is smaller then swap
         if l[j]>l[j+1]:
